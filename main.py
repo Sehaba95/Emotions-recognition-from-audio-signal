@@ -4,7 +4,7 @@
 """
 Created on Thu Apr 26 00:17:36 2018
 
-@author: Amine
+@author: Sehaba Amine
 
 Email : sehaba.amine2705@gmail.com
 
@@ -26,7 +26,7 @@ features_labeled = [ str(i) for i in range(0,1584)]
 features_labeled[0] = 'Label'
 
 # Load DATA 
-df = pandas.read_csv('labeled_emotions.csv',names = features_labeled,header=0)
+df = pandas.read_csv('dataset.csv',names = features_labeled,header=0)
 
 # Header for Features without Labels 
 features = [str(i) for i in range(1,1583)]
