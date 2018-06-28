@@ -1,9 +1,10 @@
 ###Emotion Recognition From Audio Signal
-This is my solution of Emotion Recognition From Audio Signal from Surrey Audio-Visual Expressed Emotion (SAVEE) Database.
+This is my solution of Emotion Recognition From Audio Signal from Surrey Audio-Visual Expressed Emotion (SAVEE) Database using OpenSmile, K-Nearest Neighbors and Principal Components Analysis.
 
 The SAVEE database was recorded from four native English male speakers (identified as DC, JE, JK, KL), postgraduate students and researchers at the University of Surrey.
 
 The database consists of recordings from 4 male actors in 7 different emotions, 480 British English utterances in total.
+
 
 #The different emotions are:
 Anger
