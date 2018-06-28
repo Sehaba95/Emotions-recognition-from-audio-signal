@@ -1,12 +1,13 @@
-###Emotion Recognition From Audio Signal
+<h1>Emotion Recognition From Audio Signal</h1>
 This is my solution of Emotion Recognition From Audio Signal from Surrey Audio-Visual Expressed Emotion (SAVEE) Database using OpenSmile, K-Nearest Neighbors and Principal Components Analysis.
 
 The SAVEE database was recorded from four native English male speakers (identified as DC, JE, JK, KL), postgraduate students and researchers at the University of Surrey.
 
 The database consists of recordings from 4 male actors in 7 different emotions, 480 British English utterances in total.
 
+OpenSmile is used to extract features from .wav file, it generate 1582 feature. After that, I applied PCA (Principal Components Analysis) for dimentionality reduction. Finally, I used KNN (K-Nearest Neighbors) for the classification.
 
-#The different emotions are:
+<h3>The different emotions are:<h3>
 Anger
 Disgust
 Fear
@@ -15,20 +16,20 @@ Sadness
 Surprise
 Neutral
 
-###Authors
+<h2>Authors</h2>
 	Sehaba Amine
 
-###Installation
+<h2>nstallation</h2>
 The followoing are the prerequiste Python modules that needs to be installed to execute main.py:
 
 	sudo pip install pandas 
 	sudo pip install -U scikit-learn
 
 
-###Requirements
+<h2>Requirements</h2>
 Python 2.7 and up
 
-###Downloads
+<h2>Downloads</h2>
 Clone the repository using the below mentioned command and execute the bash script.
 	
 	git clone https://github.com/Sehaba95/Emotions-recognition-from-audio-signal.git
@@ -36,5 +37,5 @@ Clone the repository using the below mentioned command and execute the bash scri
 	python main.py
 
 
-###Contributing
+<h2>Contributing</h2>
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
