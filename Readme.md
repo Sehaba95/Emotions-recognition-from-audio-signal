@@ -6,13 +6,14 @@ The SAVEE database was recorded from four native English male speakers (identifi
 OpenSmile is used to extract features from .wav file, it generate 1582 feature. After that, I applied PCA (Principal Components Analysis) for dimentionality reduction. Finally, I used KNN (K-Nearest Neighbors) for classification.
 
 <h3>The different emotions are:</h3>
-Anger
-Disgust
-Fear
-Happiness
-Sadness
-Surprise
-Neutral
+	
+	Anger
+	Disgust
+	Fear
+	Happiness
+	Sadness
+	Surprise
+	Neutral
 
 <h2>Authors</h2>
 
