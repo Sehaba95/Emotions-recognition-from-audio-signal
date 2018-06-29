@@ -15,19 +15,14 @@ OpenSmile is used to extract features from .wav file, it generate 1582 feature. 
 	Surprise
 	Neutral
 
-<h2>Authors</h2>
-
-	Sehaba Amine
+<h2>Requirements</h2>
+Python 2.7 and up
 
 <h2>Installation</h2>
 The followoing are the prerequiste Python modules that needs to be installed to execute main.py:
 
 	sudo pip install pandas 
 	sudo pip install -U scikit-learn
-
-
-<h2>Requirements</h2>
-Python 2.7 and up
 
 <h2>Downloads</h2>
 Clone the repository using the below mentioned command and execute the Python program.
@@ -36,6 +31,6 @@ Clone the repository using the below mentioned command and execute the Python pr
 	cd Emotions-recognition-from-audio-signal
 	python main.py
 
+<h2>Authors</h2>
 
-<h2>Contributing</h2>
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+	Sehaba Amine
