@@ -20,13 +20,8 @@ from sklearn.model_selection import train_test_split
 ##################################################Principal Component Analysis############################################
 ##########################################################################################################################
 
-# Header initialization 
-features_labeled = [ str(i) for i in range(0,1584)]
-
-features_labeled[0] = 'Label'
-
 # Load DATA 
-df = pandas.read_csv('dataset.csv',names = features_labeled,header=0)
+df = pandas.read_csv('dataset.csv')
 
 # Header for Features without Labels 
 features = [str(i) for i in range(1,1583)]
@@ -34,19 +29,20 @@ features = [str(i) for i in range(1,1583)]
 # Standarize the DATA 
 x = df.loc[:,features].values
 
-y = df.loc[:,'Label'].values
+y = df.loc[:,'label'].values
 
 #Heterogene -> Homogene 
 x = StandardScaler().fit_transform(x)
 
-# PCA Projection 
+from sklearn.decomposition import PCA
+# PCA  
 # n : Number of principal components 
-
 n = 90
 pca = PCA(n_components = n)
 
-principalComponents = pca.fit_transform(x)
+X = pca.fit_transform(x)
 
+'''
 #Features labels
 PC_features = ["PC"+str(i) for i in range(1,n+1)]
 
@@ -57,8 +53,8 @@ principalDF = pandas.DataFrame(data = principalComponents, columns =PC_features)
 X = principalDF.loc[:,PC_features].values
 
 #Extract targets from data
-y = df.loc[:,'Label'].values
-
+y = df.loc[:,'label'].values
+'''
 ############################################################################################################################
 ########################################### K NEAREST NEIGHBORS ############################################################
 ############################################################################################################################
