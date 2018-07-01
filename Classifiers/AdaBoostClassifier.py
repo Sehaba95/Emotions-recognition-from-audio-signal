@@ -29,7 +29,7 @@ X = pca.fit_transform(X)
 #Split data to train and test 
 X_train, X_test, Y_train, Y_test = train_test_split (X,Y,test_size=0.2)
 
-#Create a Support Vector Classifier instance 
+#Create a Ada Boost Classifier instance 
 classifier = AdaBoostClassifier()
 
 #Fit the classifier
