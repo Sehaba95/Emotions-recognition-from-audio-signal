@@ -31,7 +31,7 @@ X = pca.fit_transform(X)
 X_train, X_test, Y_train, Y_test = train_test_split (X,Y,test_size=0.2)
 
 
-#Create a Support Vector Classifier instance 
+#Create a Decision Tree Classifier instance 
 classifier = DecisionTreeClassifier(max_depth=3)
 
 #Fit the classifier
