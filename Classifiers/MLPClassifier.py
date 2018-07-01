@@ -30,8 +30,8 @@ X = pca.fit_transform(X)
 #Split data to train and test 
 X_train, X_test, Y_train, Y_test = train_test_split (X,Y,test_size=0.2)
 
-#Create a Support Vector Classifier instance 
-classifier = MLPClassifier(alpha=1.9,max_iter=600)
+#Create a Multi-Layer Classifier instance 
+classifier = MLPClassifier(alpha=1.9,max_iter=700)
 
 #Fit the classifier
 classifier.fit(X_train,Y_train)
@@ -39,5 +39,7 @@ classifier.fit(X_train,Y_train)
 #Calculate the score (Accuracy)
 score = classifier.score(X_test,Y_test)
 
+print(classifier.classes_)
+
 #Printing the score
-print(score)
+#print(score)
