@@ -18,18 +18,18 @@ OpenSmile is used to extract features from .wav file, it generate 1582 feature. 
 <h2>Results</h2>
 <table>
 	<tr> <th>Algorithm</th> <th>Model Performance</th> </tr>
-	<tr> <td>Multi Layer Perceptron Classifier</td> <td>0.8020833333333334</td> </tr>
-	<tr> <td>Logistic Regression + lbfgs Solver</td> <td>0.7604166666666666</td> </tr>
-	<tr> <td>Linear Discriminant Analysis</td> <td>0.7604166666666666</td> </tr>
-	<tr> <td>Support Vector Classifier</td> <td> 0.75</td> </tr>
-	<tr> <td>Logistic Regression</td> <td>0.75</td> </tr>
-	<tr> <td>K-Neighbors Classifier</td> <td>0.6666666666666666</td> </tr>
-	<tr> <td>Gaussian Naive Bayes</td> <td>0.6458333333333334</td> </tr>
-	<tr> <td>Decision Tree Classifier</td> <td>0.5416666666666666</td> </tr>
-	<tr> <td>Ada Boost Classifier</td> <td>0.4166666666666667</td> </tr>
-	<tr> <td>Random Forest Classifier</td> <td>0.3229166666666667</td> </tr>
-	<tr> <td>Discriminant Analysis</td> <td>0.28125</td> </tr>
-	<tr> <td>Gaussian Process Classifier</td> <td>0.17708333333333334</td> </tr>
+	<tr> <td>Multi Layer Perceptron Classifier</td> <td>80.20%</td> </tr>
+	<tr> <td>Logistic Regression + lbfgs Solver</td> <td>76.04%</td> </tr>
+	<tr> <td>Linear Discriminant Analysis</td> <td>76.04%</td> </tr>
+	<tr> <td>Support Vector Classifier</td> <td> 75%</td> </tr>
+	<tr> <td>Logistic Regression</td> <td>75%</td> </tr>
+	<tr> <td>K-Neighbors Classifier</td> <td>66.66%</td> </tr>
+	<tr> <td>Gaussian Naive Bayes</td> <td>64.58%</td> </tr>
+	<tr> <td>Decision Tree Classifier</td> <td>54.16%</td> </tr>
+	<tr> <td>Ada Boost Classifier</td> <td>41.66%</td> </tr>
+	<tr> <td>Random Forest Classifier</td> <td>32.29%</td> </tr>
+	<tr> <td>Discriminant Analysis</td> <td>28.12%</td> </tr>
+	<tr> <td>Gaussian Process Classifier</td> <td>17.70%</td> </tr>
 </table>
 
 <h2>Requirements</h2>
